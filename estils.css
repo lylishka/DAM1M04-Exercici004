@@ -363,7 +363,7 @@ body {
   width: 300px;
   height: auto;
   position: relative;
-  animation: mover 2s infinite alternate;
+  pointer-events: none;
 }
 .cards2 {
     display: flex;
@@ -441,6 +441,7 @@ body {
     width: 550px;
     height: 100%;
     border-radius: 0 20px 80px 0;
+    pointer-events: none;
 }
 
 .contenerito {
