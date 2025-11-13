@@ -1,3 +1,79 @@
+@media (max-width: 768px) {
+
+  /* Contenedores generales */
+  .contenerito, .contenerito2, .contenerito3, .contenerito4, .contenerito5, .contenerito6 {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px !important;
+      padding: 0 10px !important;
+      margin: 0 auto !important;
+  }
+
+  /* Tarjetas grandes */
+  .cards2, .cards3, .card1, .card-f, .card9 {
+      width: 100% !important;
+      max-width: 100% !important;
+      padding: 20px !important;
+  }
+
+  /* Elementos absolutos */
+  .cards2 video, .cards3 video, .img3, .card1::after, .card-f-image {
+      position: relative !important;
+      width: 100% !important;
+      height: auto !important;
+      right: auto !important;
+      bottom: auto !important;
+      margin: 0 auto !important;
+  }
+
+  /* Imágenes grandes */
+  .contenerito5 .izquierda img {
+      width: 100% !important;
+      margin-left: 0 !important;
+  }
+
+  /* Márgenes negativos */
+  .card3-solo {
+      margin-left: 0 !important;
+      margin-top: 20px !important;
+      margin-bottom: 20px !important;
+  }
+
+  /* Ajustes de texto */
+  .cards2 p, .cards3 p, .card1 p, .card-f-desc {
+      max-width: 100% !important;
+      margin: 10px 0 !important;
+      font-size: 16px !important;
+  }
+
+  /* Secciones Pixelmator / design cards */
+  .design-card--side, .design-card--full, .design-card--center {
+      flex-direction: column !important;
+      align-items: center !important;
+      text-align: center !important;
+  }
+
+  .design-card--side img, .design-card--full img, .design-card--center img {
+      width: 100% !important;
+      height: auto !important;
+      margin: 10px 0 !important;
+  }
+
+  /* Botones y títulos */
+  .buy_now, .buy {
+      width: 90% !important;
+      font-size: 1rem !important;
+      padding: 12px 0 !important;
+  }
+
+  h1 { font-size: 2rem !important; }
+  h2 { font-size: 1.5rem !important; }
+  p { font-size: 1rem !important; }
+}
+
+
+
+
 body {
     margin: 0;
     padding: 0;
