@@ -58,6 +58,11 @@
     height: auto !important;
   }
 
+  .card8 {
+    width: 150% !important;
+    height: auto !important;
+  }
+
   /* Elementos absolutos */
     .cards2 video {
         position: relative !important;
@@ -87,8 +92,8 @@
 
   /* Imágenes grandes */
   .contenerito5 .izquierda img {
-      width: 100% !important;
-      margin-left: 0 !important;
+      width: 180% !important;
+      margin-left: -60px !important;
   }
 
   .img3 {
@@ -136,12 +141,20 @@
       padding: 12px 0 !important;
   }
 
-  .card6 h2, p {
+  .card6 h2, .container-grey2 p {
       font-size: 1.2rem !important;
   }
 
   .card-content h2 {
         font-size: 2.5rem !important;
+  }
+
+  .card7 h2, .card8 h2 {
+      font-size: 1.3rem !important;
+  }
+
+  .card7 p, .card8 p {
+        font-size: 0.9rem !important;
   }
 
   h1 { font-size: 2rem !important; }
