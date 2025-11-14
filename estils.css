@@ -83,7 +83,11 @@
   .item {
     margin-left: -25px;
   }
-  
+
+  .img_hero {
+    width: 75% !important;
+  }
+
     /* Elementos absolutos */
     .cards2 video {
         position: relative !important;
@@ -135,6 +139,11 @@
         margin-top: 20px !important;
   }
 
+  .img_hero img {
+    width: 150px; 
+    height: 75px;
+  }
+
   /* Márgenes negativos */
   .card3-solo {
       margin-left: 0 !important;
@@ -151,6 +160,10 @@
 
   .cads3 p {
     font-size: 0.5rem !important;
+  }
+
+  .contenerito .card3 p, .contenerito .card3-solo p {
+    font-size: 1rem !important;
   }
 
   /* Secciones Pixelmator / design cards */
@@ -207,7 +220,7 @@
     width: 17% !important;
   }
 
-  .card6 h2, .container-grey2 p {
+  .card6 h2, .container-grey2 p, .container-grey p  {
       font-size: 1.2rem !important;
   }
 
@@ -250,7 +263,7 @@
 
   h1 { font-size: 1.6rem !important; }
   h2 { font-size: 1.5rem !important; }
-  p { font-size: 0.7rem !important; }
+  p { font-size: 1rem !important; }
 }
 
 
@@ -421,6 +434,11 @@ body {
     width: 100%;
     margin: 46px auto 130px;
     text-align: center;
+}
+
+.img_hero img {
+    width: 1106px;
+    height: 675px;
 }
 
 .description {
