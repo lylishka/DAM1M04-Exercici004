@@ -37,7 +37,14 @@
     height: auto !important;
   }
 
-  .cards2, .card1 {
+  .card1 {
+      width: 60vw !important;
+      max-height: 460px !important;
+      height: auto !important;
+      margin-left: auto !important;
+      margin-right: auto !important;
+  }
+  .cards2 {
       width: 100% !important;
       max-width: 100% !important;
       padding: 20px !important;
@@ -99,17 +106,6 @@
         margin: 0 auto !important;
     }
 
-
-  .card1::after {
-      position: relative !important;
-      width: 450px !important;
-      height: auto !important;
-      right: auto !important;
-      bottom: auto !important;
-      background: url("imatges/img_design-guides@2x.jpg") no-repeat right bottom;
-      margin: 0 auto !important;
-  }
-
   .card-f-image {
       position: relative !important;
       width: 70% !important;
@@ -161,7 +157,7 @@
   }
 
   /* Ajustes de texto */
-  .cards2 p, .card1 p, .card-f-desc {
+  .cards2 p, .card-f-desc {
       max-width: 100% !important;
       margin: 10px 0 !important;
       font-size: 16px !important;
@@ -798,11 +794,12 @@ body {
 }
 
 .img_g {
-    width: 360px;
-    height: auto;
-    left: -20px;
     display: block;
-    position: relative;
+    width: 80%;
+    max-width: 370px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .mov{
