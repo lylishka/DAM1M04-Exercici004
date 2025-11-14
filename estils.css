@@ -9,19 +9,25 @@
       margin: 0 auto !important;
   }
 
-  .contenedor {
-        flex-direction: column !important;
-        height: -70px !important;
-        align-items: center !important;
-        gap: 20px !important;
-        padding: 20px !important;
-        margin: 0 auto !important;
+  .container-grey2 {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px !important;
   }
+
+  .contenedor {
+    flex-direction: column !important;
+    height: -70px !important;
+    align-items: center !important;
+    gap: 20px !important;
+    padding: 20px !important;
+    margin: 0 auto !important;
+  }
+
   .cards {
         width: 80% !important;
         padding: 20px !important;
         margin-bottom: 30px !important;
-        margin-left: 60px !important;
   }
 
   /* Tarjetas grandes */
@@ -35,6 +41,11 @@
     width: 90% !important;
     max-width: 100% !important;
     padding: 20px !important;
+  }
+
+  .card6 {
+    width: 90% !important;
+    height: auto !important;
   }
 
   /* Elementos absolutos */
@@ -104,6 +115,10 @@
       width: 20% !important;
       font-size: 1rem !important;
       padding: 12px 0 !important;
+  }
+
+  .card6 h2, p {
+      font-size: 1.2rem !important;
   }
 
   h1 { font-size: 2rem !important; }
