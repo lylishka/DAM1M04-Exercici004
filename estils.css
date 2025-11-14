@@ -24,13 +24,19 @@
     margin: 0 auto !important;
   }
 
-  .cards {
-        width: 80% !important;
+    .contenedor .cards {
+        width: 550px !important;
+        height: auto !important;
         padding: 20px !important;
         margin-bottom: 30px !important;
   }
 
   /* Tarjetas grandes */
+ .card0 {
+    width: 150px !important;
+    height: auto !important;
+  }
+
   .cards2, .card1 {
       width: 100% !important;
       max-width: 100% !important;
@@ -46,6 +52,17 @@
     width: 90% !important;
     max-width: 100% !important;
     padding: 20px !important;
+  }
+
+   .card4 {
+    width: 100px !important;
+    height: auto !important;
+  }
+
+  .card5 {
+    width: 100% !important;
+    height: auto !important;
+    margin-bottom: -50px !important;
   }
 
   .card6 {
@@ -65,16 +82,6 @@
 
   .item {
     margin-left: -25px;
-  }
-
-  .card0 {
-    width: 150px !important;
-    height: auto !important;
-  }
-
-  .card4 {
-    width: 100px !important;
-    height: auto !important;
   }
   
     /* Elementos absolutos */
@@ -108,6 +115,17 @@
   .contenerito5 .izquierda img {
       width: 180% !important;
       margin-left: -60px !important;
+  }
+
+    .contenedor .img1 {
+        width: 80% !important;
+        height: auto !important;
+  }
+
+    .contenedor .img2 {
+        width: 20% !important;
+        height: auto !important;
+        margin-top: 20px !important;
   }
 
   .img3 {
@@ -153,6 +171,11 @@
         height: auto !important;
   }
 
+  .card5 img {
+      width: 40% !important;
+      height: auto !important;
+  }
+
   .contenedor img {
     width: 130% !important;
     height: auto !important;
@@ -168,12 +191,20 @@
       height: auto !important;
   }
 
+  .buy-logo {
+      width: 100px !important;
+      height: auto !important;
+  }
 
   /* Botones y títulos */
   .buy_now {
       width: 20% !important;
       font-size: 1rem !important;
       padding: 12px 0 !important;
+  }
+
+  .buy-section .buy_now {
+    width: 17% !important;
   }
 
   .card6 h2, .container-grey2 p {
@@ -204,7 +235,20 @@
     margin-top: 60px !important;
   }
 
-  h1 { font-size: 1.4rem !important; }
+  .p2 {
+    font-size: 1rem !important;
+  }
+
+  .buy-title {
+      font-size: 1.8rem !important;
+  }
+
+  .buy-text {
+      font-size: 1rem !important;
+  }
+  
+
+  h1 { font-size: 1.6rem !important; }
   h2 { font-size: 1.5rem !important; }
   p { font-size: 0.7rem !important; }
 }
@@ -1178,6 +1222,7 @@ h1 .yellow {
     margin: 0 0 5px 0;
     color: #86868b;
     font-size: 12px;
+    text-align: left;
 }
 /* --- Sección final tipo Pixelmator --- */
 .buy-section {
