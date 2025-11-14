@@ -98,18 +98,11 @@
         bottom: auto !important;
         margin: 0 auto !important;
     }
-   .cards3 video {
-      position: relative !important;
-      width: 100% !important;
-      height: auto !important;
-      right: auto !important;
-      bottom: auto !important;
-      margin: 0 auto !important;
-  }
+
 
   .card1::after {
       position: relative !important;
-      width: 50% !important;
+      width: 450px !important;
       height: auto !important;
       right: auto !important;
       bottom: auto !important;
@@ -144,10 +137,14 @@
   }
 
   .img3 {
-        width: 50% !important;
-        height: auto !important;
         border-radius: 0 0 20px 0 !important;
-        margin-top: 20px !important;
+        margin-top: 50px !important;
+        padding: auto;
+        max-width: 55%; 
+        max-height: 450px;
+        height: auto;
+        position: relative !important;
+
   }
 
   .img_hero img {
