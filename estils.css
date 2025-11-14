@@ -31,10 +31,20 @@
   }
 
   /* Tarjetas grandes */
-  .cards2, .card1, .card-f, .card9 {
+  .cards2, .card1 {
       width: 100% !important;
       max-width: 100% !important;
       padding: 20px !important;
+  }
+
+  .card-f {
+    width: 80% !important;
+    padding: 20px !important;
+  }
+
+  .card9 {
+    width: 70% !important;
+    height: auto !important;
   }
 
   .cards3 {
@@ -57,9 +67,18 @@
         bottom: auto !important;
         margin: 0 auto !important;
     }
-   .cards3 video, .card1::after, .card-f-image {
+   .cards3 video, .card1::after {
       position: relative !important;
       width: 100% !important;
+      height: auto !important;
+      right: auto !important;
+      bottom: auto !important;
+      margin: 0 auto !important;
+  }
+
+  .card-f-image {
+      position: relative !important;
+      width: 70% !important;
       height: auto !important;
       right: auto !important;
       bottom: auto !important;
@@ -119,6 +138,10 @@
 
   .card6 h2, p {
       font-size: 1.2rem !important;
+  }
+
+  .card-content h2 {
+        font-size: 2.5rem !important;
   }
 
   h1 { font-size: 2rem !important; }
