@@ -171,18 +171,6 @@
     font-size: 1rem !important;
   }
 
-  /* Secciones Pixelmator / design cards */
-  .design-card--side, .design-card--full, .design-card--center {
-      flex-direction: column !important;
-      align-items: center !important;
-      text-align: center !important;
-  }
-
-  .design-card--side img, .design-card--full img, .design-card--center img {
-      width: 100% !important;
-      height: auto !important;
-      margin: 10px 0 !important;
-  }
 
   .item img {
         width: 40px !important;
@@ -687,11 +675,11 @@ body {
     color: #ffffff;
 }
 
-.cards h2, .cards3 h2, .card3 h2, .card3-solo h2, .card4 h2, .cards h2, .cards9 h2 {
+.cards h2, .cards3 h2, .card3 h2, .card3-solo h2, .card4 h2, .cards h2, .card9 h2 {
     font-weight: bold;
 }
 
-.cards h2, .cards3 h2, .cards h2, .cards9 h2 {
+.cards h2, .cards3 h2, .cards h2, .card9 h2 {
     font-size: 25px;
 }
 .cards h2 {
