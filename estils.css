@@ -171,6 +171,19 @@
     font-size: 1rem !important;
   }
 
+  /* Secciones Pixelmator / design cards */
+  .design-card--side, .design-card--full, .design-card--center {
+      flex-direction: column !important;
+      align-items: center !important;
+      text-align: center !important;
+  }
+
+  .design-card--side img, .design-card--full img, .design-card--center img {
+      width: 100% !important;
+      height: auto !important;
+      margin: 10px 0 !important;
+  }
+
   .item img {
         width: 40px !important;
         height: auto !important;
@@ -257,8 +270,6 @@
   h2 { font-size: 1.5rem !important; }
   p { font-size: 1rem !important; }
 }
-
-
 
 
 /* ===== ESTILS GLOBALS ===== */
@@ -1269,65 +1280,3 @@ h1 .yellow {
   color: #444;
   margin-bottom: 30px;
 }
-
-
-<<<<<<< HEAD
-=======
-/* Tarjetas base */
-.design-card {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 40px;
-  background-color: #111;
-  color: #fff;
-  border-radius: 12px;
-  padding: 40px;
-  width: 100%;
-}
-
-/* --- The Arrange tool (imagen ocupa toda la card) --- */
-.design-card--full {
-  flex-direction: column;
-}
-
-.design-card--full img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-  margin-top: 20px;
-}
-
-/* --- Layer Styles (imagen centrada arriba del texto) --- */
-.design-card--center {
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
-.design-card--center img {
-  width: 80%;
-  height: auto;
-  border-radius: 10px;
-  margin-bottom: 20px;
-}
-
-/* --- Layer-Based Editing (imagen a la derecha del texto) --- */
-.design-card--side {
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.design-card--side .design-card__text {
-  flex: 1;
-  text-align: left;
-  padding-right: 20px;
-}
-
-.design-card--side img {
-  width: 45%;
-  height: auto;
-  border-radius: 10px;
-}
->>>>>>> 4e69c4110b7259393cb3754dbcd3bc5a51990751
