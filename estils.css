@@ -807,7 +807,6 @@ body {
   position: relative;
   overflow: hidden;
   color: white;
-  font-family: system-ui, sans-serif;
   margin:  -220px auto 60px auto; /* centrar */
 }
 
