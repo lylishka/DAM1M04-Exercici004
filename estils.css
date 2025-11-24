@@ -1044,6 +1044,7 @@ h1 .yellow {
         font-size: 12px;
     }
 
+
     /* Contenedores principales */
     .container-black, .container-grey, .container-grey2 {
         width: 100%;
@@ -1233,7 +1234,7 @@ h1 .yellow {
 
     .card9 {
         width: 100%;
-        padding: 20px;
+        padding: 60px;
         min-height: auto;
     }
 
@@ -1248,9 +1249,9 @@ h1 .yellow {
     }
 
     .img_g {
-        width: 90%;
+        width: 100%;
         max-width: 100%;
-        margin: 20px 10px 10px 10px;
+        margin: 15px 0;
     }
 
     .mov {
@@ -1260,7 +1261,7 @@ h1 .yellow {
 
     /* Card F */
     .card-f {
-        width: 80%;
+        width: 100%;
         height: auto;
         padding: 30px 15px;
         margin: 30px auto;
@@ -1270,8 +1271,6 @@ h1 .yellow {
     .card-f-text {
         width: 100%;
         margin-bottom: 20px;
-        margin-left: 20px;
-        margin-right: auto;
     }
 
     .card-f-title {
@@ -1279,18 +1278,14 @@ h1 .yellow {
     }
 
     .card-f-desc {
-        font-size: 16px;
-        width: 80%;
-        height: auto;
-        margin-left: 0px;
+        font-size: 14px;
     }
 
     .card-f-image {
         position: relative;
-        width: 90%;
-        height: auto;
-        margin-top: 60px;
-        margin-bottom: -50px;
+        width: 100%;
+        height: 250px;
+        margin: 0;
     }
 
     /* Card 3 */
@@ -1356,7 +1351,7 @@ h1 .yellow {
 
     /* Video 2 */
     .video2 {
-        width: 90%;
+        width: 100%;
         max-width: 100%;
         height: auto;
     }
