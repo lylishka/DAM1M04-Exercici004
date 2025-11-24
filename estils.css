@@ -334,13 +334,15 @@ body {
 }
 
 .img2{
-    width: 90px;
+    width: 100%;
+    max-width: 2560px;
     height: auto;
     display: block;
     position: relative;
     left: -150px;
     top: -30px;
     margin-bottom: 0px;
+ 
 }
 
 .img3 {
@@ -1004,6 +1006,21 @@ h1 .yellow {
   margin-bottom: 30px;
 }
 
+.imagen-dock .responsive-img-dock {
+    width: 200%;
+    max-width: 2560px;
+    height: auto;
+    display: block;
+}
+@media (max-width: 768px) {
+    .imagen-dock {
+       padding: 20px;
+    }
+    .imagen-dock .responsive-img-dock {
+        max-width: 100%;
+    }
+}
+
 /* ...existing code... */
 
 /* ===== RESPONSIVE - MOBILE ===== */
@@ -1120,12 +1137,12 @@ h1 .yellow {
 
     .cards1 h2 {
         font-size: 36px;
-        margin-bottom: 15px;
+        margin-bottom: 90px;
     }
 
     .cards1 p {
         font-size: 14px;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
     }
 
     .cards2, .cards3 {
@@ -1165,13 +1182,26 @@ h1 .yellow {
         font-size: 20px;
     }
 
-    .img1, .img2, .img3 {
-        width: 100%;
+    .img1 {
+        width: 80%;
         height: auto;
         position: relative;
-        left: 0 !important;
-        top: 0 !important;
+        left: 0;
+        top: 0;
+        padding: 20px 0;
         margin: 15px 0;
+    
+    }
+
+    .img2, .img3 {
+        width: 90px;
+        max-width: 100%;
+        height: auto;
+        position: relative;
+        left: 0;
+        top: 0;
+        padding: 0 150px 0 0;
+        margin: 15px;
     }
 
     /* Card 1, 9 */
