@@ -1044,6 +1044,7 @@ h1 .yellow {
         font-size: 12px;
     }
 
+
     /* Contenedores principales */
     .container-black, .container-grey, .container-grey2 {
         width: 100%;
@@ -1145,7 +1146,7 @@ h1 .yellow {
         margin-bottom: 40px;
     }
 
-    .cards2, .cards3 {
+    .cards2 {
         width: 100%;
         padding: 20px;
         min-height: auto;
@@ -1160,16 +1161,18 @@ h1 .yellow {
         margin-top: 15px;
     }
 
+
     .cards3 {
         background-color: lab(92.7% 0 -0.01);
+        width: 90%;
+        padding: 20px;
+        height: 250px;
+        margin-left: 10px;
+        margin-bottom: -30px;
     }
 
     .cards3 img {
-        position: relative;
-        width: 100%;
-        height: auto;
-        border-radius: 10px;
-        margin-top: 15px;
+        display: none;
     }
 
     .cards p, .cards2 p, .cards3 p {
@@ -1188,7 +1191,10 @@ h1 .yellow {
         position: relative;
         left: 0;
         top: 0;
+<<<<<<< HEAD
         padding: 20px 0;
+=======
+>>>>>>> 9d82aa83fdf712ad39b13d5c151a3bcc6a9b33af
         margin: 15px 0;
     
     }
@@ -1206,20 +1212,27 @@ h1 .yellow {
 
     /* Card 1, 9 */
     .card1 {
-        width: 100%;
-        height: auto;
-        margin: 15px 0;
+        width: 80%;
+        height: 400px;
+        margin: 30px 0;
         padding: 20px;
+        margin-left: 10px;
     }
 
     .card1::after {
-        display: none;
+        width: 95%;
+        margin-bottom: 100px;
+        margin-right: -30px;
     }
 
     .card1 p {
         padding: 0;
         font-size: 16px;
-        max-width: 100%;
+        margin-top: 120px;
+        max-width: 80%;
+        height: auto;
+        text-align: left;
+        color: #cfd4d6;
     }
 
     .card9 {
