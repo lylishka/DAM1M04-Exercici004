@@ -1012,6 +1012,8 @@ h1 .yellow {
     height: auto;
     display: block;
 }
+
+/* ===== RESPONSIVE - MOBILE ===== */
 @media (max-width: 768px) {
     .imagen-dock {
        padding: 20px;
@@ -1019,29 +1021,35 @@ h1 .yellow {
     .imagen-dock .responsive-img-dock {
         max-width: 100%;
     }
-}
 
-/* ...existing code... */
-
-/* ===== RESPONSIVE - MOBILE ===== */
-@media (max-width: 768px) {
     /* Navegación */
     .topnav {
+        width: 100%;
         height: auto;
-        padding: 12px;
+        padding: 8px 12px;
         flex-direction: column;
         gap: 10px;
+        box-sizing: border-box;
     }
 
     .topnav .brand {
         max-width: 100%;
         font-size: 14px;
         flex: none;
+        margin: 0;
     }
 
     .topnav .menu {
         gap: 10px;
         font-size: 12px;
+        margin: 0;
+        overflow-x: auto;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        scrollbar-width: none;
     }
 
     /* Contenedores principales */
@@ -1264,12 +1272,12 @@ h1 .yellow {
         height: auto;
         padding: 30px 15px;
         margin: 30px auto;
-        flex-direction: column;
+        position: relative;
     }
 
     .card-f-text {
         width: 100%;
-        margin-bottom: 20px;
+        margin-bottom: 200px;
         margin-left: 20px;
         margin-right: auto;
     }
@@ -1286,11 +1294,11 @@ h1 .yellow {
     }
 
     .card-f-image {
-        position: relative;
+        position: absolute;
+        bottom: 0;
+        right: 0;
         width: 90%;
         height: auto;
-        margin-top: 60px;
-        margin-bottom: -50px;
     }
 
     /* Card 3 */
@@ -1371,7 +1379,7 @@ h1 .yellow {
 
     .card5 {
         width: 100%;
-        margin-bottom: 0;
+        margin-bottom: -150px;
     }
 
     .card5 .p2, .card5 .p3 {
@@ -1422,39 +1430,45 @@ h1 .yellow {
     }
 
     .contenerito5 .izquierda img {
-        width: 100%;
-        margin-left: 0;
+        width: 95%;
+        margin-left: -5px;
     }
 
     .contenerito5 .derecha {
-        width: 100%;
+        width: 90%;
     }
 
     .card7 {
-        width: 100%;
+        width: 90%;
         height: auto;
         padding: 20px;
         margin-top: 0;
+        padding-left: 20px;
     }
 
     .card7 h2, .card8 h2 {
         font-size: 18px;
+        margin-left: 10px;
     }
 
     .card7 p, .card8 p {
-        font-size: 14px;
-        width: 100%;
+        font-size: 17px;
+        width: 80%;
+        height: auto;
+        margin-bottom: 30px;
     }
 
     .card8 {
-        width: 100%;
+        width: 90%;
         height: auto;
         padding: 20px;
+        padding-bottom: 0;
     }
 
     .card8 img {
-        margin: 10px 0 0 0;
-        width: 100%;
+        margin: 0;
+        display: block;
+        width: 110%;
     }
 
     /* Contenerito6 */
@@ -1481,7 +1495,7 @@ h1 .yellow {
     }
 
     .link {
-        font-size: 14px;
+        font-size: 17px;
         margin-bottom: 0;
     }
 
