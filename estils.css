@@ -1012,8 +1012,6 @@ h1 .yellow {
     height: auto;
     display: block;
 }
-
-/* ===== RESPONSIVE - MOBILE ===== */
 @media (max-width: 768px) {
     .imagen-dock {
        padding: 20px;
@@ -1021,37 +1019,30 @@ h1 .yellow {
     .imagen-dock .responsive-img-dock {
         max-width: 100%;
     }
+}
 
+/* ...existing code... */
+
+/* ===== RESPONSIVE - MOBILE ===== */
+@media (max-width: 768px) {
     /* Navegación */
     .topnav {
-        width: 100%;
         height: auto;
-        padding: 8px 12px;
+        padding: 12px;
         flex-direction: column;
         gap: 10px;
-        box-sizing: border-box;
     }
 
     .topnav .brand {
         max-width: 100%;
         font-size: 14px;
         flex: none;
-        margin: 0;
     }
 
     .topnav .menu {
         gap: 10px;
         font-size: 12px;
-        margin: 0;
-        overflow-x: auto;
-        list-style: none;
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: nowrap;
-        overflow-x: auto;
-        scrollbar-width: none;
     }
-
 
     /* Contenedores principales */
     .container-black, .container-grey, .container-grey2 {
@@ -1092,7 +1083,7 @@ h1 .yellow {
     }
 
     .img_hero img {
-        width: 100%;
+        width: 90%;
         height: auto;
     }
 
@@ -1104,14 +1095,15 @@ h1 .yellow {
 
     /* Botones */
     .buy, .buy_now {
-        font-size: 12px;
+        font-size: 13px;
         padding: 8px 15px;
         margin: 0 auto 60px auto;
     }
 
     .buy_now {
-        width: auto;
+        width: 30%;
         height: auto;
+        padding: 8px 16px;
     }
 
     /* Contenedor secundario */
@@ -1242,7 +1234,7 @@ h1 .yellow {
 
     .card9 {
         width: 100%;
-        padding: 60px;
+        padding: 0px;
         min-height: auto;
     }
 
@@ -1269,7 +1261,7 @@ h1 .yellow {
 
     /* Card F */
     .card-f {
-        width: 100%;
+        width: 80%;
         height: auto;
         padding: 30px 15px;
         margin: 30px auto;
@@ -1278,7 +1270,9 @@ h1 .yellow {
 
     .card-f-text {
         width: 100%;
-        margin-bottom: 20px;
+        margin-bottom: 200px;
+        margin-left: 20px;
+        margin-right: auto;
     }
 
     .card-f-title {
@@ -1286,14 +1280,18 @@ h1 .yellow {
     }
 
     .card-f-desc {
-        font-size: 14px;
+        font-size: 16px;
+        width: 80%;
+        height: auto;
+        margin-left: 0px;
     }
 
     .card-f-image {
-        position: relative;
-        width: 100%;
-        height: 250px;
-        margin: 0;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 90%;
+        height: auto;
     }
 
     /* Card 3 */
@@ -1359,7 +1357,7 @@ h1 .yellow {
 
     /* Video 2 */
     .video2 {
-        width: 100%;
+        width: 90%;
         max-width: 100%;
         height: auto;
     }
@@ -1552,10 +1550,5 @@ h1 .yellow {
 
     .buy-text {
         font-size: 16px;
-    }
-
-    .buy_now {
-        width: auto;
-        padding: 10px 20px;
     }
 }
