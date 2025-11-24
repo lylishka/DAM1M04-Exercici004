@@ -334,7 +334,7 @@ body {
 }
 
 .img2{
-    width: 100%;
+    width: 90px;
     max-width: 2560px;
     height: auto;
     display: block;
@@ -1191,10 +1191,7 @@ h1 .yellow {
         position: relative;
         left: 0;
         top: 0;
-<<<<<<< HEAD
         padding: 20px 0;
-=======
->>>>>>> 9d82aa83fdf712ad39b13d5c151a3bcc6a9b33af
         margin: 15px 0;
     
     }
